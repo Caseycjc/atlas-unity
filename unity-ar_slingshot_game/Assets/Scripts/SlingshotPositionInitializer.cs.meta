@@ -1,14 +1,11 @@
 fileFormatVersion: 2
-guid: bbe38c73df293c147805506ece17ddf1
+guid: 3daa6b2e70f4b404b90f3cde3e446315
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - startButton: {instanceID: 0}
-  - restartButton: {instanceID: 0}
-  - stopButton: {instanceID: 0}
+  - slingshotPositionObject: {instanceID: 0}
   - ammoPrefab: {fileID: 2508625014114908289, guid: e5889c479ed22ff45ac6e312a1e97125, type: 3}
-  - slingshotPosition: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -35,10 +35,10 @@ public class TargetBehavior : MonoBehaviour
         // Select a new target point within the bounds
         targetPoint = new Vector3(
             Random.Range(-boundary.x / 2, boundary.x / 2),
-            0, // Targets should not move vertically
+            0,
             Random.Range(-boundary.y / 2, boundary.y / 2)
         );
-        targetPoint = transform.parent.TransformPoint(targetPoint); // Convert to world space
+        targetPoint = transform.parent.TransformPoint(targetPoint);
     }
 
     public void SetScaleBasedOnDistance()
@@ -50,6 +50,14 @@ public class TargetBehavior : MonoBehaviour
         float scalingFactor = 0.1f;
         float scale = Mathf.Clamp(scalingFactor / distance, 0.05f, 0.1f);
         transform.localScale = new Vector3(scale, scale, scale);
+        }
+    }
+    public void OnCollisionEnter(Collision collision)
+    {
+        // Destroys target on collision
+        if (collision.gameObject.CompareTag("Ammo"))
+        {
+            Destroy(gameObject);
         }
     }
 }
