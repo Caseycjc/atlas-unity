@@ -17,6 +17,7 @@ MonoBehaviour:
   m_AutomaticRunning: 0
   m_Loaders:
   - {fileID: 11400000, guid: 8ff9bc6a4947b3e4ab7c8830b7996438, type: 2}
+<<<<<<< HEAD
 --- !u!114 &-2378631569879381465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31,6 +32,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: 2996168837510374274}
   m_InitManagerOnStart: 1
+=======
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,10 +46,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2dc886499c26824283350fa532d087d, type: 3}
   m_Name: XRGeneralSettings
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Keys: 0100000007000000
   Values:
   - {fileID: 1599749506459824670}
   - {fileID: -2378631569879381465}
+=======
+  Keys: 01000000
+  Values:
+  - {fileID: 1599749506459824670}
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
 --- !u!114 &1599749506459824670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,6 +70,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: -3648845029684742962}
   m_InitManagerOnStart: 1
+<<<<<<< HEAD
 --- !u!114 &2996168837510374274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78,3 +88,5 @@ MonoBehaviour:
   m_AutomaticRunning: 0
   m_Loaders:
   - {fileID: 11400000, guid: 9ed1c939902451746b5528a70f815841, type: 2}
+=======
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94

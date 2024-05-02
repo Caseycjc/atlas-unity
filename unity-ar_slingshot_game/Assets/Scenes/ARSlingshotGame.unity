@@ -123,6 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &48200628
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,6 +172,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+=======
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
 --- !u!1 &177303255
 GameObject:
   m_ObjectHideFlags: 0
@@ -181,8 +184,11 @@ GameObject:
   m_Component:
   - component: {fileID: 177303257}
   - component: {fileID: 177303256}
+<<<<<<< HEAD
   - component: {fileID: 177303258}
   - component: {fileID: 177303259}
+=======
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -219,6 +225,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &177303258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -381,6 +388,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345476318}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,6 +482,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &907736351
@@ -609,6 +619,10 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907736351}
   m_CullTransparentMesh: 1
+=======
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -693,6 +707,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1023280648
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,6 +982,8 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+=======
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
 --- !u!1 &1267925643
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,9 +998,12 @@ GameObject:
   - component: {fileID: 1267925647}
   - component: {fileID: 1267925646}
   - component: {fileID: 1267925645}
+<<<<<<< HEAD
   - component: {fileID: 1267925650}
   - component: {fileID: 1267925652}
   - component: {fileID: 1267925651}
+=======
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
   m_Layer: 0
   m_Name: AR Camera
   m_TagString: MainCamera
@@ -1060,8 +1080,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4966719baa26e4b0e8231a24d9bd491a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_FocusMode: -1
   m_LightEstimationMode: -1
+=======
+  m_FocusMode: 1
+  m_LightEstimationMode: 0
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
   m_AutoFocus: 1
   m_LightEstimation: 0
   m_FacingDirection: 1
@@ -1100,6 +1125,7 @@ Transform:
   m_Father: {fileID: 177303257}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &1267925650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1146,6 +1172,9 @@ Rigidbody:
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!1 &1353769601
+=======
+--- !u!1 &1786599765
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1153,6 +1182,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1353769602}
   - component: {fileID: 1353769604}
   - component: {fileID: 1353769603}
@@ -1562,11 +1592,19 @@ GameObject:
   - component: {fileID: 1627405296}
   m_Layer: 0
   m_Name: EventSystem
+=======
+  - component: {fileID: 1786599766}
+  - component: {fileID: 1786599768}
+  - component: {fileID: 1786599767}
+  m_Layer: 0
+  m_Name: AR Plane Manager
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!114 &1627405296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1603,18 +1641,26 @@ MonoBehaviour:
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &1627405298
+=======
+--- !u!4 &1786599766
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1627405295}
+=======
+  m_GameObject: {fileID: 1786599765}
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1634319799
@@ -1793,11 +1839,17 @@ RectTransform:
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1722522562
+=======
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1786599767
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1722522560}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1849,11 +1901,23 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1722522563
+=======
+  m_GameObject: {fileID: 1786599765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlanePrefab: {fileID: 0}
+  m_DetectionMode: 1
+--- !u!114 &1786599768
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1722522560}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2081,3 +2145,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011824984}
   m_CullTransparentMesh: 1
+=======
+  m_GameObject: {fileID: 1786599765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 520bb47c46cf8624fafb307b7d1b862a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 1267925644}
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94

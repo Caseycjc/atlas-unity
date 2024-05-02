@@ -154,15 +154,23 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
+<<<<<<< HEAD
   applicationIdentifier:
     Android: com.DefaultCompany.unityar_slingshot_game
+=======
+  applicationIdentifier: {}
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
   buildNumber:
     Standalone: 0
     iPhone: 0
     tvOS: 0
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
+<<<<<<< HEAD
   AndroidMinSdkVersion: 24
+=======
+  AndroidMinSdkVersion: 22
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -245,19 +253,32 @@ PlayerSettings:
   useCustomBaseGradleTemplate: 0
   useCustomGradlePropertiesTemplate: 0
   useCustomProguardFile: 0
+<<<<<<< HEAD
   AndroidTargetArchitectures: 2
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: '{inproject}: user.keystore'
   AndroidKeyaliasName: kcar
+=======
+  AndroidTargetArchitectures: 1
+  AndroidTargetDevices: 0
+  AndroidSplashScreenScale: 0
+  androidSplashScreen: {fileID: 0}
+  AndroidKeystoreName: 
+  AndroidKeyaliasName: 
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
+<<<<<<< HEAD
   androidUseCustomKeystore: 1
+=======
+  androidUseCustomKeystore: 0
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
   m_AndroidBanners:
   - width: 320
     height: 180
@@ -511,8 +532,13 @@ PlayerSettings:
     m_GraphicsJobMode: 0
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: AndroidPlayer
+<<<<<<< HEAD
     m_APIs: 0b000000
     m_Automatic: 0
+=======
+    m_APIs: 150000000b000000
+    m_Automatic: 1
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
     m_Automatic: 1
@@ -808,8 +834,12 @@ PlayerSettings:
   scriptingDefineSymbols: {}
   additionalCompilerArguments: {}
   platformArchitecture: {}
+<<<<<<< HEAD
   scriptingBackend:
     Android: 1
+=======
+  scriptingBackend: {}
+>>>>>>> b1ea40d8cdcd5e350c180d3ab433a66267af5f94
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
