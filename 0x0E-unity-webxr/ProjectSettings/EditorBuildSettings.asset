@@ -9,6 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 5c196c2e297630147b869b074d0c828f,
+      type: 2}
     WebXR.Settings: {fileID: 11400000, guid: 52702810cd69ddf49bb355d265079ad3, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7999bf95ee3a2c649bdffc310f866227,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a7b60e66a21b4874883becaecd51a8e2,
       type: 2}
